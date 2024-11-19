@@ -108,7 +108,7 @@ public class VerVehiculosDiponiblesViewController {
     private void accionEstoyInteresado(ActionEvent event) {
         try {
             App.showAlert("Información",
-                    "Comuníquese con un empleado o administrador de la sucursal para obtener más información.",
+                    "Comuníquese con un empleado o administrador de TuCarroUQ para obtener más información del vehiculo en el que estás interesado :)",
                     Alert.AlertType.INFORMATION);
         } catch (Exception e) {
             App.showAlert("Error", "Ocurrió un error al mostrar la información: " + e.getMessage(),

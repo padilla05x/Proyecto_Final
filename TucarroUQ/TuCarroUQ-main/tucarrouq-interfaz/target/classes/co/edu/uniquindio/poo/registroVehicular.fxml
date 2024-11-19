@@ -14,7 +14,7 @@
     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="929.0" prefWidth="779.0" style="-fx-background-color: black;">
          <children>
             <ComboBox fx:id="cmb_TipoDeVehiculo" layoutX="39.0" layoutY="148.0" prefWidth="150.0" promptText="Tipo De Vehiculo" />
-            <Label id="lbl.bienvenido" layoutX="275.0" layoutY="58.0" prefHeight="31.0" prefWidth="246.0" text="Registro Vehicular:" textAlignment="CENTER" textFill="WHITE">
+            <Label id="lbl.bienvenido" layoutX="291.0" layoutY="15.0" prefHeight="31.0" prefWidth="197.0" text="Registro Vehicular" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Comic Sans MS Bold" size="20.0" />
                </font>
@@ -24,7 +24,7 @@
             <TextField fx:id="txt_Referencia" layoutX="531.0" layoutY="183.0" promptText="Referencia" />
             <TextField fx:id="txt_Placa" layoutX="531.0" layoutY="220.0" promptText="Placa" />
             <TextField fx:id="txt_VelocidadMax" layoutX="531.0" layoutY="262.0" promptText="Velocidad Max(En entero)" />
-            <CheckBox fx:id="check_EsNuevo" layoutX="39.0" layoutY="183.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="117.0" text="Es nuevo?" textFill="#fffdfd">
+            <CheckBox fx:id="check_EsNuevo" layoutX="39.0" layoutY="183.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="117.0" text="Es nuevo" textFill="#fffdfd">
                <font>
                   <Font name="Comic Sans MS Bold" size="13.0" />
                </font>
@@ -32,12 +32,12 @@
             <TextField fx:id="txt_Modelo" layoutX="531.0" layoutY="300.0" promptText="Modelo (En Entero)" />
             <TextField fx:id="txt_CantidadPuertas" layoutX="23.0" layoutY="517.0" promptText="Cantidad Puertas" />
             <TextField fx:id="txt_PrecioAlquilerDia" layoutX="39.0" layoutY="262.0" promptText="Precio Alquiler (Dia)" />
-            <Label id="lbl.bienvenido" layoutX="229.0" layoutY="100.0" prefHeight="31.0" prefWidth="383.0" text="Por favor complete los siguientes campos:" textAlignment="CENTER" textFill="WHITE">
+            <Label id="lbl.bienvenido" layoutX="198.0" layoutY="71.0" prefHeight="31.0" prefWidth="383.0" text="Por favor complete los siguientes campos:" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Comic Sans MS Bold" size="17.0" />
                </font>
             </Label>
-            <Button fx:id="btn_listo" layoutX="303.0" layoutY="369.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="110.0" text="Listo" />
+            <Button fx:id="btn_listo" layoutX="303.0" layoutY="386.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="110.0" text="Listo" />
             <TextField fx:id="txt_AutonomiaCargaCompleta" layoutX="275.0" layoutY="249.0" prefHeight="25.0" prefWidth="189.0" promptText="Autonomia Carga Completa" />
             <TextField fx:id="txt_TiempoPromedioPorCarga" layoutX="273.0" layoutY="201.0" prefHeight="25.0" prefWidth="194.0" promptText="Tiempo Promedio Por Carga" />
             <TextField fx:id="txt_tipoDeCombustible" layoutX="273.0" layoutY="201.0" prefHeight="25.0" prefWidth="194.0" promptText="Tipo De Combustible" />
@@ -49,22 +49,22 @@
                   <Font name="Comic Sans MS Bold" size="20.0" />
                </font>
             </Label>
-            <CheckBox fx:id="check_AsistenteDePermanenciaDECarril" layoutX="435.0" layoutY="545.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="286.0" text="Asistente De Permanencia De Carril?" textFill="#fffdfd">
+            <CheckBox fx:id="check_AsistenteDePermanenciaDECarril" layoutX="435.0" layoutY="545.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="286.0" text="Asistente De Permanencia De Carril" textFill="#fffdfd">
                <font>
                   <Font name="Comic Sans MS Bold" size="13.0" />
                </font>
             </CheckBox>
-            <CheckBox fx:id="check_EsEnchufable" layoutX="311.0" layoutY="195.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="146.0" text="Es Encuchable?" textFill="#fffdfd">
+            <CheckBox fx:id="check_EsEnchufable" layoutX="311.0" layoutY="195.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="146.0" text="Enchufable" textFill="#fffdfd">
                <font>
                   <Font name="Comic Sans MS Bold" size="13.0" />
                </font>
             </CheckBox>
-            <CheckBox fx:id="check_EsHidridoLigero" layoutX="311.0" layoutY="256.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="156.0" text="Es Hidrido Ligero?" textFill="#fffdfd">
+            <CheckBox fx:id="check_EsHidridoLigero" layoutX="311.0" layoutY="256.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="156.0" text="Hibrido Ligero" textFill="#fffdfd">
                <font>
                   <Font name="Comic Sans MS Bold" size="13.0" />
                </font>
             </CheckBox>
-            <CheckBox fx:id="check_RevisionTecnica" layoutX="39.0" layoutY="220.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="192.0" selected="true" text="Tiene Revision Tecnica?" textFill="#fffdfd">
+            <CheckBox fx:id="check_RevisionTecnica" layoutX="39.0" layoutY="220.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="192.0" selected="true" text="Tiene Revision Tecnica" textFill="#fffdfd">
                <font>
                   <Font name="Comic Sans MS Bold" size="13.0" />
                </font>
@@ -74,51 +74,51 @@
             <TextField fx:id="txt_CaballosDeFuerza" layoutX="23.0" layoutY="607.0" promptText="Caballos de Fuerza (Entero)" />
             <TextField fx:id="txt_TipoDeMoto" layoutX="23.0" layoutY="686.0" promptText="Tipo De Motocicleta" />
             <TextField fx:id="txt_CapacidadDeMaletero" layoutX="23.0" layoutY="649.0" promptText="Capacidad De Maletero(Entero)" />
-            <CheckBox fx:id="check_ABS" layoutX="245.0" layoutY="545.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="117.0" text="ABS?" textFill="#fffdfd">
+            <CheckBox fx:id="check_ABS" layoutX="245.0" layoutY="545.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="117.0" text="ABS" textFill="#fffdfd">
                <font>
                   <Font name="Comic Sans MS Bold" size="13.0" />
                </font>
             </CheckBox>
-            <CheckBox fx:id="check_TransmisionManual" layoutX="245.0" layoutY="505.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="168.0" text="Transmision Manual?" textFill="#fffdfd">
+            <CheckBox fx:id="check_TransmisionManual" layoutX="245.0" layoutY="505.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="168.0" text="Transmision Manual" textFill="#fffdfd">
                <font>
                   <Font name="Comic Sans MS Bold" size="13.0" />
                </font>
             </CheckBox>
-            <CheckBox fx:id="check_AireAcondicionado" layoutX="245.0" layoutY="589.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="157.0" text="Aire Acondicionado?" textFill="#fffdfd">
+            <CheckBox fx:id="check_AireAcondicionado" layoutX="245.0" layoutY="589.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="157.0" text="Aire Acondicionado" textFill="#fffdfd">
                <font>
                   <Font name="Comic Sans MS Bold" size="13.0" />
                </font>
             </CheckBox>
-            <CheckBox fx:id="check_CamaraReversa" layoutX="242.0" layoutY="631.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="157.0" text="Camara Reversa?" textFill="#fffdfd">
+            <CheckBox fx:id="check_CamaraReversa" layoutX="242.0" layoutY="631.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="157.0" text="Camara Reversa" textFill="#fffdfd">
                <font>
                   <Font name="Comic Sans MS Bold" size="13.0" />
                </font>
             </CheckBox>
-            <CheckBox fx:id="check_VelocidadCrucero" layoutX="434.0" layoutY="582.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="157.0" text="Velocidad Crucero?" textFill="#fffdfd">
+            <CheckBox fx:id="check_VelocidadCrucero" layoutX="434.0" layoutY="582.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="157.0" text="Velocidad Crucero" textFill="#fffdfd">
                <font>
                   <Font name="Comic Sans MS Bold" size="13.0" />
                </font>
             </CheckBox>
-            <CheckBox fx:id="check_SensorColision" layoutX="242.0" layoutY="668.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="157.0" text="Sensor De Colision?" textFill="#fffdfd">
+            <CheckBox fx:id="check_SensorColision" layoutX="242.0" layoutY="668.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="157.0" text="Sensor De Colision" textFill="#fffdfd">
                <font>
                   <Font name="Comic Sans MS Bold" size="13.0" />
                </font>
             </CheckBox>
-            <CheckBox fx:id="check_SensorDeTraficoCruzado" layoutX="435.0" layoutY="505.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="241.0" text="Sensor De Trafico Cruzado?" textFill="#fffdfd">
+            <CheckBox fx:id="check_SensorDeTraficoCruzado" layoutX="435.0" layoutY="505.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="241.0" text="Sensor De Trafico Cruzado" textFill="#fffdfd">
                <font>
                   <Font name="Comic Sans MS Bold" size="13.0" />
                </font>
             </CheckBox>
-            <CheckBox fx:id="check_4x4" layoutX="434.0" layoutY="614.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="157.0" text="es 4x4?" textFill="#fffdfd">
+            <CheckBox fx:id="check_4x4" layoutX="434.0" layoutY="614.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="157.0" text="Tracción 4x4" textFill="#fffdfd">
                <font>
                   <Font name="Comic Sans MS Bold" size="13.0" />
                </font>
             </CheckBox>
-            <TextField fx:id="txt_TiempoEn100km" layoutX="23.0" layoutY="722.0" prefHeight="25.0" prefWidth="176.0" promptText="Tiempo En Que Esta 100km/h" />
+            <TextField fx:id="txt_TiempoEn100km" layoutX="23.0" layoutY="722.0" prefHeight="25.0" prefWidth="176.0" promptText="Seg. En alcanzar 100km/h" />
             <TextField fx:id="txt_TipoDeCamion" layoutX="23.0" layoutY="761.0" prefHeight="25.0" prefWidth="176.0" promptText="Tipo De Camion" />
             <TextField fx:id="txt_CapacidadDeCarga" layoutX="23.0" layoutY="803.0" prefHeight="25.0" prefWidth="176.0" promptText="CapacidadDeCarga" />
             <TextField fx:id="txt_NumeroDeEjes" layoutX="23.0" layoutY="846.0" prefHeight="25.0" prefWidth="176.0" promptText="Numero De Ejes" />
-            <CheckBox fx:id="check_FrenosAire" layoutX="434.0" layoutY="650.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="157.0" text="Frenos De Aire?" textFill="#fffdfd">
+            <CheckBox fx:id="check_FrenosAire" layoutX="434.0" layoutY="650.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="157.0" text="Frenos De Aire" textFill="#fffdfd">
                <font>
                   <Font name="Comic Sans MS Bold" size="13.0" />
                </font>
@@ -134,6 +134,11 @@
             <TextField fx:id="txt_CapacidadCajaDeCarga" layoutX="223.0" layoutY="761.0" prefHeight="25.0" prefWidth="176.0" promptText="Capacidad Caja De Carga" />
             <TextField fx:id="txt_Cambios" layoutX="531.0" layoutY="338.0" promptText="Cambios (En entero)" />
             <TextField fx:id="txt_Kilometraje" layoutX="531.0" layoutY="379.0" promptText="Kilometraje" />
+            <Label id="lbl.bienvenido" layoutX="184.0" layoutY="426.0" prefHeight="31.0" prefWidth="372.0" text="(Continue con datos adicionales en la parte de abajo)" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="14.0" />
+               </font>
+            </Label>
          </children></AnchorPane>
   </content>
 </ScrollPane>

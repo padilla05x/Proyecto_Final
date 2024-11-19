@@ -91,7 +91,7 @@ public class MenuInicioSesionAdminController {
             Message mensaje = new MimeMessage(session);
             mensaje.setFrom(new InternetAddress(miCorreo));
             mensaje.setRecipients(Message.RecipientType.TO, InternetAddress.parse(emailBuscado));
-            mensaje.setSubject("Recuperación de Contraseña Tu Carro UQ");
+            mensaje.setSubject("Recuperación de Contraseña cuenta Administrador de Tu Carro UQ");
             mensaje.setText("Hola, \n\nTu nueva contraseña es: " + nuevaContrasena + "\n\nSaludos,\nTu Carro UQ");
 
             // Enviar el mensaje

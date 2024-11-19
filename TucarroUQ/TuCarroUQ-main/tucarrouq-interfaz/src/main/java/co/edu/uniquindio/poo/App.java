@@ -44,7 +44,7 @@ public class App extends Application {
     @Override
     public void start(Stage stage) {
         // AGREGAR EJEMPLO AL CONCESIONARIO
-        concesionario.agregarEjemplo();
+        //concesionario.agregarEjemplo();
 
         try {
             // Cargar la escena principal desde el archivo FXML

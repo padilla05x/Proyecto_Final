@@ -204,7 +204,7 @@ public class Concesionario implements Serializable {
 
         // Crear un administrador de ejemplo
         Administrador administradorEjemplo = new Administrador("1234", "1234", "1234",
-                "pj245668@gmail.com");
+                "admin@gmail.com");
         agregarAdministrador(administradorEjemplo);
 
         VehiculoHibrido vehiculoHibrido = new PickUpHibrida("Toyota", "Hilux", "JHT468", 18000, 185, false, 120000, 1400, 0, false, false, false, 0, 0, 0, 0, 0, false, false, false, false, false);

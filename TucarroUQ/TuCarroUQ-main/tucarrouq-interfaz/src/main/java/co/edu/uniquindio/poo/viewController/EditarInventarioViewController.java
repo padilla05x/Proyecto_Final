@@ -96,6 +96,7 @@ public class EditarInventarioViewController {
             tbc_placa.setCellValueFactory(cellData -> new SimpleObjectProperty<>(cellData.getValue().getPlaca()));
             tbc_tipoDeVehiculo.setCellValueFactory(
                     cellData -> new SimpleObjectProperty<>(cellData.getValue().getClass().getSimpleName()));
+
         } catch (Exception e) {
             App.showAlert("Error de Configuración", "Error al configurar las columnas de la tabla: " + e.getMessage(),
                     Alert.AlertType.ERROR);
